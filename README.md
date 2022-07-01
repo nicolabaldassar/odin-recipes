@@ -1,1 +1,1 @@
-nice
+This is the first project of The Odin Project and these are four html pages, no css yet.
