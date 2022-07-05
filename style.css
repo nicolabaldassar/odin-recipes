@@ -1,0 +1,15 @@
+* {
+    background-color: #ffe6bb;
+}
+#main-h1 {
+    text-align: center;
+    font-size: 40px;
+    color: palevioletred;
+}
+.container {
+    overflow: auto;
+    background-color: cadetblue;
+}
+h3.intro {
+
+}
