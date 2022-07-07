@@ -1,12 +1,55 @@
-* {
+html {
+    font-size: 16px;
+}
+body {
     background-color: #ffe6bb;
 }
 #main-h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 4rem;
     color: palevioletred;
+    font-family:'Courier New', Courier, monospace;
 }
 .container {
-    overflow: auto;
-    background-color: cadetblue;
+    background-color: paleturquoise;
+    padding: 1ch 4ch;
+    width: 60%; /* dello schermo */
+    margin: 0 auto;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.list {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.list li{
+    display: inline-block;
+    margin: 0 8%;
+    font-size: 1.25rem;
+}
+h2.intro {
+    text-align: center;
+    color: #4f8385;
+    font-size: 3rem;
+    font-weight: 400;
+}
+h3.intro {
+    text-align: center;
+    color: #4f8385;
+    font-size: 2rem;
+    font-weight: 400;
+}
+/* unstyle a link */
+a {
+    color: #4f8385;
+    /* text-decoration: inherit; */
+    /* cursor: inherit; */
+}
+img {
+    width: 100%;
+    height: auto;
+}
+p, li {
+    font-family: Helvetica, sans-serif;
+    color: #4c4c4c;
 }
